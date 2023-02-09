@@ -1,0 +1,94 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #CB6363;
+}
+::placeholder{
+    color: #fff;
+}
+button{
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background: #D87E7E;
+    color: #fff;
+    width: 50%;
+
+}
+.container{
+    width: 30%;
+    display: grid;
+    place-items: center;
+    row-gap: 1rem;
+    margin: 0 auto;
+}
+header{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+header h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+form{
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+}
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    outline: none;
+    background: rgba(0,0,0,0.2);
+    padding: 1rem 1rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+ul {
+    width: 100%;
+    display: grid;
+    place-items: self-end;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    color: #fff;
+    font-size: 1.1rem;
+    background: #D87E7E;
+    border-radius: 0.5rem;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    align-items: center;
+
+}
+form label{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+form div{
+    display: grid;
+}
+
+.update{
+    width: 100%;
+    /*display: grid;*/
+    display: none;
+    place-items: center;
+    gap: 0.5rem;
+}
+.filtered{
+    display: none !important;
+}
+.uil{
+    cursor: pointer;
+}
